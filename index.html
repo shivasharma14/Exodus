@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Welcome to the Upside Down</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navlink">
+          <li>
+            <a href="index.html"
+              ><span class="fa fa-home" />&nbsp;
+              <span class="navbar-items">Home</span></a
+            >
+          </li>
+          <li>
+            <a href="aboutus.html"
+              ><span class="fa fa-info-circle" />&nbsp;
+              <span class="navbar-items">About us</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <input type="text" id="search" placeholder="search..." />
+      <a href="contactus.html"
+        ><span class="fa fa-phone-square" />&nbsp;
+        <span class="navbar-items">Contact</span></a
+      >
+    </header>
+    <section id="top">
+      <div class="container">
+        <h1 id="tagline">
+          We promise to keep your mood uplifted.
+          <br />
+          No gravity, Assured tranquility.
+        </h1>
+      </div>
+    </section>
+    <section id="content">
+      <h1 id="topic">The Upside <span id="down">Down</span></h1>
+      <div class="container">
+        <div class="card">
+          <div id="single" class="card-header"></div>
+          <div id="card-body1" class="card-body">
+            <h3>Single Room</h3>
+            <div class="row-1">
+              <div class="col">
+                <div class="box">
+                  <select
+                    id="guest1"
+                    name="guests"
+                    id="guest-single"
+                    class="guest-select"
+                  >
+                    <option value="--" selected>--</option>
+                    <option value="1">1</option>
+                  </select>
+                </div>
+              </div>
+              <div id="day1" class="col">
+                <input type="text" placeholder="--" />
+              </div>
+              <div id="price1" class="col">₹2000</div>
+            </div>
+            <div class="row-2">
+              <div class="col">Guests</div>
+              <div class="col">Days</div>
+              <div class="col">/ Day</div>
+            </div>
+            <a id="book1" class="book" href="#receipt">Book</a>
+          </div>
+        </div>
+        <div class="card">
+          <div id="double" class="card-header"></div>
+          <div id="card-body2" class="card-body">
+            <h3>Double Bedroom</h3>
+            <div class="row-1">
+              <div class="col">
+                <div class="box">
+                  <select
+                    id="guest2"
+                    name="guests"
+                    id="guest-single"
+                    class="guest-select"
+                  >
+                    <option value="--" selected>--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+              </div>
+              <div id="day2" class="col">
+                <input type="text" placeholder="--" />
+              </div>
+              <div id="price2" class="col">₹3000</div>
+            </div>
+            <div class="row-2">
+              <div class="col">Guests</div>
+              <div class="col">Days</div>
+              <div class="col">/ Day</div>
+            </div>
+            <a id="book2" class="book" href="#receipt">Book</a>
+          </div>
+        </div>
+        <div class="card">
+          <div id="twin" class="card-header"></div>
+          <div id="card-body3" class="card-body">
+            <h3>Twin Bedroom</h3>
+            <div class="row-1">
+              <div class="col">
+                <div class="box">
+                  <select
+                    id="guest3"
+                    name="guests"
+                    id="guest-single"
+                    class="guest-select"
+                  >
+                    <option value="--" selected>--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+              </div>
+              <div id="day3" class="col">
+                <input type="text" placeholder="--" />
+              </div>
+              <div id="price3" class="col">₹3000</div>
+            </div>
+            <div class="row-2">
+              <div class="col">Guests</div>
+              <div class="col">Days</div>
+              <div class="col">/ Day</div>
+            </div>
+            <a id="book3" class="book" href="#receipt">Book</a>
+          </div>
+        </div>
+        <div class="card">
+          <div id="king" class="card-header"></div>
+          <div id="card-body4" class="card-body">
+            <h3>King Size</h3>
+            <div class="row-1">
+              <div class="col">
+                <div class="box">
+                  <select
+                    id="guest4"
+                    name="guests"
+                    id="guest-single"
+                    class="guest-select"
+                  >
+                    <option value="--" selected>--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+              </div>
+              <div id="day4" class="col">
+                <input type="text" placeholder="--" />
+              </div>
+              <div id="price4" class="col">₹4000</div>
+            </div>
+            <div class="row-2">
+              <div class="col">Guests</div>
+              <div class="col">Days</div>
+              <div class="col">/ Day</div>
+            </div>
+            <a id="book4" class="book" href="#receipt">Book</a>
+          </div>
+        </div>
+        <div class="card">
+          <div id="minisuite" class="card-header"></div>
+          <div id="card-body5" class="card-body">
+            <h3>Mini Suite</h3>
+            <div class="row-1">
+              <div class="col">
+                <div class="box">
+                  <select
+                    id="guest5"
+                    name="guests"
+                    id="guest-single"
+                    class="guest-select"
+                  >
+                    <option value="--" selected>--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+              </div>
+              <div id="day5" class="col">
+                <input type="text" placeholder="--" />
+              </div>
+              <div id="price5" class="col">₹4500</div>
+            </div>
+            <div class="row-2">
+              <div class="col">Guests</div>
+              <div class="col">Days</div>
+              <div class="col">/ Day</div>
+            </div>
+            <a id="book5" class="book" href="#receipt">Book</a>
+          </div>
+        </div>
+        <div class="card">
+          <div id="suite" class="card-header"></div>
+          <div id="card-body6" class="card-body">
+            <h3>Suite</h3>
+            <div class="row-1">
+              <div class="col">
+                <div class="box">
+                  <select
+                    id="guest6"
+                    name="guests"
+                    id="guest-single"
+                    class="guest-select"
+                  >
+                    <option value="--" selected>--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+              </div>
+              <div id="day6" class="col">
+                <input type="text" placeholder="--" />
+              </div>
+              <div id="price6" class="col">₹6000</div>
+            </div>
+            <div class="row-2">
+              <div class="col">Guests</div>
+              <div class="col">Days</div>
+              <div class="col">/ Day</div>
+            </div>
+            <a id="book6" class="book" href="#receipt">Book</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="bottom">
+      <div class="container"><h1>Receipt</h1></div>
+    </section>
+    <section id="receipt">
+      <div class="card receipt-card">
+        <div id="receipt-header" class="card-header"></div>
+        <div class="card-body">
+          <h3>Receipt</h3>
+          <div id="receipt-guest" class="row-1">
+            <div id="receipt-guests" class="col">--</div>
+            <div id="receipt-days" class="col">--</div>
+            <div id="receipt-total" class="col">--</div>
+          </div>
+          <div class="row-2">
+            <div class="col">Guests</div>
+            <div class="col">Days</div>
+            <div class="col">Total</div>
+          </div>
+          <a id="checkin" class="book" href="#receipt">Check in</a>
+        </div>
+      </div>
+    </section>
+    <footer>Copyright &copy; 2020</footer>
+    <script src="index.js"></script>
+  </body>
+</html>

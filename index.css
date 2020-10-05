@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #c8c8c8;
+    text-align: center;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  li,
+  a,
+  span,
+  input {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  header {
+    padding: 20px 5%;
+    display: flex;
+    background-color: #0b0704;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header li {
+    padding: 0px 10px;
+  }
+  
+  header input {
+    padding: 5px;
+    margin: 0;
+    width: 50%;
+    max-width: 400px;
+    background-color: #181818;
+    border-radius: 1rem 1rem;
+    border: none;
+    outline: none;
+  }
+  
+  footer {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b0704;
+  }
+  
+  .container {
+    padding: 20px 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    overflow: auto;
+  }
+  
+  .card {
+    margin: 20px 2%;
+    width: 46%;
+    border-radius: 0.5rem;
+    background-color: #0b0704;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.4);
+    font-family: "Roboto Condensed", sans-serif;
+    display: inline-block;
+    float:left;
+    overflow: auto;
+  }
+  
+  .card a {
+    padding: 10px 20%;
+  }
+  
+  .card a:hover {
+    background-color: #333;
+  }
+  
+  .card a:active {
+    background-color: black;
+  }
+  
+  .card-header {
+    min-height: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  
+  .card-body {
+    padding: 20px;
+    font-size: 20px;
+    min-height: 150px;
+  }
+  
+  .row-1 {
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 20px 10px 2px 10px;
+    opacity: 0.8;
+    font-size: 25px;
+    overflow: hidden;
+  }
+  
+  .row-2 {
+    padding: 0;
+    opacity: 0.5;
+    font-size: 18px;
+    overflow: auto;
+  }
+  
+  .col {
+    width: 33.3%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+  }
+  
+  .col input {
+    width: 100%;
+    padding: 2px 0px;
+    font-size: 25px;
+    color: #edf0f1;
+    font-family: "Roboto Condensed", sans-serif;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  .col input:focus,
+  input:hover {
+    background-color: #181818;
+    border-radius: 1rem 1rem;
+  }
+  
+  .box select {
+    width: auto;
+    padding: 2px 10px;
+    font-size: 25px;
+    background-color: #0b0704;
+    border: none;
+    border-radius: 1rem 1rem;
+    outline: none;
+  }
+  
+  .box select:hover,
+  select:focus {
+    background-color: #181818;
+  }
+  
+  .book {
+    margin: 30px 0 0 0;
+    padding: 10px 20%;
+    font-size: 18px;
+    background: #181818;
+    border: none;
+    border-radius: 1rem 1rem;
+    opacity: 0.8;
+    outline: none;
+  }
+  
+  .receipt-card {
+    width: 50%;
+    float: none;
+  }
+  
+  #top {
+    background-image: url("images/space.jfif");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+  }
+  
+  #tagline {
+    font-size: 28px;
+    background-image: url("images/tagline.jpg");
+    background-position: top right;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  #content {
+    background-image: url("images/background.jfif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  #topic {
+    padding: 30px 20px 0px 20px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+  }
+  
+  #down {
+    padding: 0 0 4px 0;
+    color: #a9a9a9;
+    font-size: 30px;
+    font-weight: 700;
+    transition: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+  }
+  
+  #single {
+    background-image: url("images/Single_room.jpeg");
+  }
+  
+  #double {
+    background-image: url("images/Double_bedroom.jpg");
+  }
+  
+  #twin {
+    background-image: url("images/twin_bedroom.jpg");
+  }
+  
+  #king {
+    background-image: url("images/kingmain.jpg");
+  }
+  
+  #minisuite {
+    background-image: url("images/mini_suite.jpg");
+  }
+  
+  #suite {
+    background-image: url("images/Suite.jpg");
+  }
+  
+  #bottom {
+    background-color: #0b0704;
+  }
+  
+  #receipt {
+    padding: 10px 5%;
+    background-image: radial-gradient(
+      circle farthest-corner at 50.3% 44.5%,
+      rgba(116, 147, 179, 1) 0%,
+      rgba(62, 83, 104, 1) 100.2%
+    );
+  
+    align-items: center;
+    overflow: auto;
+  }
+  
+  #receipt-header {
+    min-height: 400px;
+    background-image: url("images/receipt.jpeg");
+  }
+  
+  @media (max-width: 1000px) {
+    .navbar-items {
+      display: none;
+    }
+  
+    .container {
+      padding: 20px;
+    }
+  
+    .card {
+      margin: 10px 0;
+      width: 100%;
+    }
+  
+    .card-header {
+      min-height: 150px;
+    }
+  
+    #tagline {
+      font-size: 25px;
+    }
+  
+    #receipt-header {
+      min-height: 200px;
+    }
+  }
